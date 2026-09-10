@@ -15,4 +15,35 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "cupcake",
+      "cyberpunk",
+      "coffee",
+      "lemonade",
+      "forest",
+      "synthwave",
+      "retro",
+      "valentine",
+      "halloween",
+      "garden",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+    ],
+  },
+
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+
+  "editor.quickSuggestions": {
+    strings: "on",
+  },
 };
